@@ -14,13 +14,13 @@ public class OPP10 {
         }
 
         double d=distance(circle[0][0],circle[0][1],circle[1][0],circle[1][1]);
-        if(circle[0][2]+circle[1][2]<d*d)
+        if((circle[0][2]+circle[1][2])>d)
             System.out.println("두 원은 서로 겹친다.");
         else
             System.out.println("두 원은 서로 겹치지 않는다.");
     }
     public static double distance(int x1, int y1, int x2, int y2){
-        return ((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));
+        return Math.sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));
     }
 }
 

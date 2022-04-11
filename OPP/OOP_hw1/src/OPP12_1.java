@@ -20,5 +20,6 @@ public class OPP12_1 {
             result=op1/op2;
         }
         System.out.println(op1+op+op2+"의 계산결과는"+result);
+        scanner.close();
     }
 }

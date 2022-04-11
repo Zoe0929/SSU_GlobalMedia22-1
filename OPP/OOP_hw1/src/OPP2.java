@@ -14,6 +14,7 @@ public class OPP2 {
         {
             System.out.println("No! 10의 자리와 1의 자리가 다릅니다.");
         }
+        scanner.close();
 
     }
 }

@@ -28,5 +28,6 @@ public class OPP12_2 {
                 break;
         }
         System.out.println(op1+op+op2+" 의 계산결과는 "+result);
+        scanner.close();
     }
 }

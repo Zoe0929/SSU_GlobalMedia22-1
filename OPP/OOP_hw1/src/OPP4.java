@@ -6,6 +6,7 @@ public class OPP4 {
 
         int [] num = new int[3];
         Scanner scanner=new Scanner(System.in);
+        System.out.print("정수 3개를 입력하시오.>> ");
 
         for(int i=0;i< num.length;i++){
             num[i]=scanner.nextInt();
@@ -14,6 +15,7 @@ public class OPP4 {
         Arrays.sort(num);
 
         System.out.println(num[1]);
+        scanner.close();
 
     }
 }

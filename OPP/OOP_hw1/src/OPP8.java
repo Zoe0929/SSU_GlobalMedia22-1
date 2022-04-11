@@ -10,9 +10,10 @@ public class OPP8 {
             }
         }
         if(inRect(rect[0][0],rect[0][1],100,100,200,200)||inRect(rect[1][0],rect[1][1],100,100,200,200)){
-            System.out.println("삼각형이 충돌합니다.");
+            System.out.println("사각형이 충돌합니다.");
         }
-        else System.out.println("삼각형이 충돌하지 않습니다.");
+        else System.out.println("사각형이 충돌하지 않습니다.");
+        scanner.close();
 
     }
 
