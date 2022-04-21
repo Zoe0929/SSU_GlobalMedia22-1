@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class OPP_3_3
+public class OOP_3_3
 {
     public static void main(String[] args) {
         int count=0;

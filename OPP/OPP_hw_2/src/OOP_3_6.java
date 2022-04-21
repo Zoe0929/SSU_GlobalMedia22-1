@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class OPP_3_6
+public class OOP_3_6
 {
     public static void main(String[] args) {
         int [] uint={50000,10000,1000,500,100,50,10,1};
