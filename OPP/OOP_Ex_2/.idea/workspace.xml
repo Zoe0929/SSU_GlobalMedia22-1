@@ -38,30 +38,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.BookArray">
-    <configuration name="BookArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BookArray" />
+  <component name="RunManager" selected="Application.swithgayui">
+    <configuration name="ArrayAcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayAcess" />
       <module name="OOP_Ex_2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivedByZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DivedByZero" />
-      <module name="OOP_Ex_2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DivedByZeroHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DivedByZeroHandling" />
-      <module name="OOP_Ex_2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EX_3_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EX_3_12" />
+    <configuration name="Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book" />
       <module name="OOP_Ex_2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,13 +60,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Song" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Song" />
+      <module name="OOP_Ex_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="swithgayui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swithgayui" />
+      <module name="OOP_Ex_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BookArray" />
+        <item itemvalue="Application.swithgayui" />
+        <item itemvalue="Application.Song" />
+        <item itemvalue="Application.ArrayAcess" />
         <item itemvalue="Application.NumberFormatExceptionUp" />
-        <item itemvalue="Application.DivedByZeroHandling" />
-        <item itemvalue="Application.DivedByZero" />
-        <item itemvalue="Application.EX_3_12" />
+        <item itemvalue="Application.Book" />
       </list>
     </recent_temporary>
   </component>
@@ -112,6 +112,24 @@
           <url>file://$PROJECT_DIR$/src/NumberFormatExceptionUp.java</url>
           <line>6</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TypeConversion.java</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CoffePrice.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Song.java</url>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Null.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

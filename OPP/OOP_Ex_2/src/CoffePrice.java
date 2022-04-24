@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class CoffePrice {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("무슨 커피를 드릴까요?");
+        String menu=scanner.next();
+        int price=0;
+
+        switch (menu){
+            case "에스프레소":
+            case "카푸치노":
+            case "카페라떼":
+                 price=5000;
+                 break;
+            case "아메리카노":
+                price=4500;
+                break;
+            default:
+                System.out.print("메뉴에 없습니다.");
+        }
+        if(price!=0){
+            System.out.print(menu+"의 가격은 "+price);
+        }
+        scanner.close();
+    }
+}

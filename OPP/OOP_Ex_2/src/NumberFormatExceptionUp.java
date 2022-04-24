@@ -19,9 +19,6 @@ public class NumberFormatExceptionUp {
                 scanner.next();
                 continue;
             }
-            catch (NumberFormatException e){
-                System.out.println("잘못된 입력입니다. 다시 입력하시오.");
-            }
             catch (ArithmeticException e){
                 System.out.println("0으로 나눌 수 없습니다. 다시 입력하시오.");
             }
