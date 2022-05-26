@@ -1,13 +1,17 @@
 import java.util.Scanner;
 
 public class PhoneBook {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        Phone phone[];
-        int i;
+    Phone phone[];
+    int i;
+    Scanner scanner = new Scanner(System.in);
+    //인원수 입력
+    private int InputNum(){
         System.out.print("인원수 >> ");
         int num = scanner.nextInt();
+        return num;
+    }
+    //전화번호부에 저장
+    private void getPhoneNum(int num){
         phone = new Phone[num];
         for(i=0; i<phone.length; i++) {
             System.out.print("이름과 전화번호(이름과 번호는 빈 칸없이 입력)>>");
@@ -16,7 +20,10 @@ public class PhoneBook {
             phone[i] = new Phone(name, tel);
         }
         System.out.println("저장되었습니다...");
-        while(true) {
+    }
+    //전화번호부 검색
+    private  void SearchPhoneBook(int num){
+        while (true){
             System.out.print("검색할 이름 >>");
             String name = scanner.next();
             for(i=0; i<num; i++) {
@@ -30,7 +37,12 @@ public class PhoneBook {
             if (i == num) System.out.println(name+"이 없습니다.");
         }
 
-        scanner.close();
+    }
+    public static void main(String[] args) {
+        PhoneBook phoneBook=new PhoneBook();
+        int num = phoneBook.InputNum();
+        phoneBook.getPhoneNum(num);
+        phoneBook.SearchPhoneBook(num);
     }
 }
 
